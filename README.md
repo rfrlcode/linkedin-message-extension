@@ -153,7 +153,7 @@ linkedin-message-extension/
 
 ## 📄 License
 
-This project is open source. Feel free to modify and distribute according to your needs.
+This project is under the MIT License. Feel free to modify and distribute according to your needs.
 
 ## 🤝 Contributing
 
