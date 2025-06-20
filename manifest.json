@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Message Templates",
+  "version": "1.0",
+  "description": "Send personalized LinkedIn messages using templates.",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LinkedIn Templates"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/*", "*://linkedin.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": ["*://www.linkedin.com/*", "*://linkedin.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html", "popup.js"],
+      "matches": ["*://www.linkedin.com/*"]
+    }
+  ]
+}
