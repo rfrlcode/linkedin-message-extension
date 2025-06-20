@@ -133,7 +133,8 @@ linkedin-message-extension/
 
 1. **Clone the repository**:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/rfrlcode/linkedin-message-extension
+   
    cd linkedin-message-extension
    ```
 
